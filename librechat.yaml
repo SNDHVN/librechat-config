@@ -175,32 +175,6 @@ endpoints:
           - perplexity/sonar-pro
           - perplexity/sonar-reasoning-pro
           - perplexity/sonar
-          - together/NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO
-          - together/Qwen/QwQ-32B-Preview
-          - together/Qwen/Qwen2-72B-Instruct
-          - together/Qwen/Qwen2.5-72B-Instruct-Turbo
-          - together/Qwen/Qwen2.5-7B-Instruct-Turbo
-          - together/Qwen/Qwen2.5-Coder-32B-Instruct
-          - together/deepseek-ai/DeepSeek-R1
-          - together/deepseek-ai/DeepSeek-V3
-          - together/deepseek-llm-67b-chat
-          - together/meta-llama/Llama-2-13b-chat-hf
-          - together/meta-llama/Llama-2-70b-hf
-          - together/meta-llama/Llama-2-7b-chat-hf
-          - together/meta-llama/Llama-3-70b-chat-hf
-          - together/meta-llama/Llama-3-8b-chat-hf
-          - together/meta-llama/Llama-3.2-3B-Instruct-Turbo
-          - together/meta-llama/Llama-3.3-70B-Instruct-Turbo
-          - together/meta-llama/LlamaGuard-2-8b
-          - together/meta-llama/Meta-Llama-3-70B-Instruct-Lite
-          - together/meta-llama/Meta-Llama-3-70B-Instruct-Turbo
-          - together/meta-llama/Meta-Llama-3-8B-Instruct-Lite
-          - together/meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo
-          - together/meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo
-          - together/meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
-          - together/meta-llama/Meta-Llama-Guard-3-8B
-          - together/nvidia/Llama-3.1-Nemotron-70B-Instruct-HF
-          - together/upstage/SOLAR-10.7B-Instruct-v1.0
           - vertex/anthropic/claude-3-5-sonnet
           - vertex/anthropic/claude-3-5-sonnet-20241022
           - vertex/anthropic/claude-3-5-sonnet-latest
@@ -302,55 +276,13 @@ endpoints:
           - NousResearch/Nous-Hermes-2-Yi-34B
           - NousResearch/Nous-Capybara-7B-V1p9
           
-          # === DATABRICKS MODELS ===
-          - databricks/dbrx-instruct
-          
-          # === 01.AI MODELS ===
-          - zero-one-ai/Yi-34B-Chat
-          
-          # === UPSTAGE MODELS ===
-          - upstage/SOLAR-10.7B-Instruct-v1.0
-          
-          # === MICROSOFT MODELS ===
-          - microsoft/phi-2
-          - microsoft/WizardLM-2-8x22B
-          
-          # === ARCEE MODELS ===
-          - arcee-ai/Trinity-Mini
-          
-          # === COGNITO MODELS ===
-          - Deep-Cogito/cogito-v2-1-671b
-          
-          # === OPENAI MODELS (via Together) ===
-          - OpenAI/gpt-oss-120B
-          
-          # === RIME AUDIO MODELS ===
-          - Rime/arcana-v2
-          
-          # === MINIMAX MODELS ===
-          - minimaxai/minimax-speech-2-6-turbo
-          
           # === CODE-SPECIFIC MODELS ===
           - codellama/CodeLlama-7b-Instruct-hf
           - codellama/CodeLlama-13b-Instruct-hf
           - codellama/CodeLlama-34b-Instruct-hf
           - codellama/CodeLlama-70b-Instruct-hf
           - codellama/CodeLlama-70b-Python-hf
-          
-          # === OLDER/COMMUNITY MODELS ===
-          - togethercomputer/Llama-2-7B-32K-Instruct
-          - togethercomputer/RedPajama-INCITE-7B-Chat
-          - togethercomputer/RedPajama-INCITE-Chat-3B-v1
-          - togethercomputer/StripedHyena-Nous-7B
-          - Austism/chronos-hermes-13b
-          - garage-bAInd/Platypus2-70B-instruct
-          - Gryphe/MythoMax-L2-13b
-          - OpenAssistant/llama2-70b-oasst-sft-v10
-          - teknium/OpenHermes-2-Mistral-7B
-          - teknium/OpenHermes-2p5-Mistral-7B
-          - Undi95/ReMM-SLERP-L2-13B
-          - Undi95/Toppy-M-7B
-          - WizardLM/WizardLM-13B-V1.2
+
         fetch: false
       titleConvo: true
       titleModel: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
@@ -524,35 +456,7 @@ endpoints:
           - openrouter/optimus-alpha
           - openrouter/quasar-alpha
           - openrouter/cypher-alpha
-          
-          # === COMMUNITY / OPEN SOURCE ===
-          - cognitivecomputations/dolphin-mixtral-8x22b
-          - cognitivecomputations/dolphin-2.6-mixtral-8x7b
-          - gryphe/mythomax-l2-13b
-          - gryphe/mythomist-7b
-          - undi95/toppy-m-7b
-          - undi95/remm-slerp-l2-13b
-          - openrouter/cinematika-7b
-          - anthropic/claude-instant-1
-          - pygmalionai/mythalion-13b
-          - koboldai/psyfighter-13b-2
-          - teknium/openhermes-2-mistral-7b
-          - teknium/openhermes-2.5-mistral-7b
-          - undi95/remm-slerp-l2-13b-6k
-          - xwin-lm/xwin-lm-70b
-          - alpindale/goliath-120b
-          - neversleep/noromaid-20b
-          - gryphe/mythomax-l2-13b-8k
-          - mancer/weaver
-          - lizpreciatior/lzlv-70b-fp16-hf
-          - jondurbin/airoboros-l2-70b
-          - jondurbin/bagel-34b
-          
-          # === IMAGE MODELS ===
-          - openai/dall-e-3
-          - openai/dall-e-2
-          - stabilityai/stable-diffusion-xl
-          - stability-ai/sdxl-turbo
+
         fetch: false
       titleConvo: true
       titleModel: openai/gpt-4o-mini
